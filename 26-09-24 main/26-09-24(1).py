@@ -61,10 +61,5 @@ person3.display_info()
 print("updating age")
 
 person1.update_age(29)
-print("age updating")
+print("updating age")
 person1.display_info()
-
-
-
-
-

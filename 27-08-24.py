@@ -7,3 +7,5 @@ l = len(s)
 for i in range(l):
     if s[i]=="n":
       print(s[i])
+ 
+

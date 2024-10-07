@@ -8,7 +8,7 @@
    >Calculate and print the total salary for each employe'''
 
 class Employee:
-    bonus=0.1 
+    bonus=0.1
     #  bonus(10%)
     def __init__(self,name,salary):
         self.name=name
@@ -17,8 +17,8 @@ class Employee:
         return self.salary+(self.salary*Employee.bonus) 
 
 #create employee instance salaries
-emp1=Employee("Naveen",80000)
-emp2=Employee("lohi",60000)
+emp1=Employee("Naveen",100000)
+emp2=Employee("lohi",68977)
 emp3=Employee("eswar",70000)
 
 print("Initial Total Salaries:")
@@ -26,7 +26,7 @@ print(f"{emp1.name}:${emp1.total_salary():.2f}")
 print(f"{emp2.name}:${emp2.total_salary():.2f}")
 print(f"{emp3.name}:${emp3.total_salary():.2f}")
 Employee.bonus=0.15
- 
+  
 print("\nUpdate Total Salaries(15% bonus):")
 print(f"{emp1.name}:${emp1.total_salary():.2f}")
 print(f"{emp2.name}:${emp2.total_salary():.2f}")
